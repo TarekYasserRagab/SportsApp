@@ -31,27 +31,16 @@ class LeguesViewController: UIViewController, LeguesView {
 extension LeguesViewController: UITableViewDelegate, UITableViewDataSource
 {
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        for item in leguesaArray{
-//            if item.strSport == nameSport {
-//                leaguesAraayPrint.append(item)
-//                tableView.reloadData()
-//            }else{
-//                let alert = UIAlertController(title: "Alert", message: "No Data", preferredStyle: .alert)
-//
-//                     let ok = UIAlertAction(title: "OK", style: .default, handler: { action in
-//                         self.navigationController?.popViewController(animated: true)
-//                     })
-//                    alert.addAction(ok)
-//                     DispatchQueue.main.async(execute: {
-//                        self.present(alert, animated: true)
-//                        self.tableView.reloadData()
-//                })
-//
-//            }
-//        }
-//    }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        if leguesaArray.isEmpty{
+            let alert = UIAlertController(title: "Alert..", message: "No Leagues Now, Leagues Of This Sport Is Comming Soon..", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { action in
+                self.navigationController?.popViewController(animated: true)
+            }))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+  
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
