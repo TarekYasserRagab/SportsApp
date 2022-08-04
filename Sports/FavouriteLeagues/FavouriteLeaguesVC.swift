@@ -29,6 +29,13 @@ extension FavouriteLeaguesVC: UITableViewDelegate, UITableViewDataSource
         arrFavourite = db.fetchData(appDelegate: appDelegate)
         print("Data Featched")
         tableViewFav.reloadData()
+        if arrFavourite.isEmpty{
+            let alert = UIAlertController(title: "Warning", message: "Go to Leagues and Add Your Favourite :)", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { action in
+                
+            }))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
