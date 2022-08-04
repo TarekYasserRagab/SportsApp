@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F542402528666B8600173EF7 /* UiStoryBoardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542402428666B8600173EF7 /* UiStoryBoardExtensions.swift */; };
+		F55C06E7289B46750019070A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C06E5289B46750019070A /* SplashScreenViewController.swift */; };
+		F55C06E8289B46750019070A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C06E6289B46750019070A /* TabBarViewController.swift */; };
 		F5BDAB3C286221D100A54B57 /* LeaguesDetailesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB3B286221D100A54B57 /* LeaguesDetailesVC.swift */; };
 		F5BDAB4428622D6C00A54B57 /* LeagueDetPres.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB4328622D6C00A54B57 /* LeagueDetPres.swift */; };
 		F5BDAB4728622DB200A54B57 /* LeagueDetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB4628622DB200A54B57 /* LeagueDetModel.swift */; };
@@ -51,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		F542402428666B8600173EF7 /* UiStoryBoardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiStoryBoardExtensions.swift; sourceTree = "<group>"; };
+		F55C06E5289B46750019070A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		F55C06E6289B46750019070A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F5BDAB3B286221D100A54B57 /* LeaguesDetailesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesDetailesVC.swift; sourceTree = "<group>"; };
 		F5BDAB4328622D6C00A54B57 /* LeagueDetPres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueDetPres.swift; sourceTree = "<group>"; };
 		F5BDAB4628622DB200A54B57 /* LeagueDetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueDetModel.swift; sourceTree = "<group>"; };
@@ -111,6 +115,15 @@
 				F542402428666B8600173EF7 /* UiStoryBoardExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F55C06E4289B46750019070A /* LaunchScreenController */ = {
+			isa = PBXGroup;
+			children = (
+				F55C06E5289B46750019070A /* SplashScreenViewController.swift */,
+				F55C06E6289B46750019070A /* TabBarViewController.swift */,
+			);
+			path = LaunchScreenController;
 			sourceTree = "<group>";
 		};
 		F5BDAB3D28622CF500A54B57 /* LeaguesDetailes */ = {
@@ -190,6 +203,7 @@
 		F5DF8EF728607BC0003E4180 /* Sports */ = {
 			isa = PBXGroup;
 			children = (
+				F55C06E4289B46750019070A /* LaunchScreenController */,
 				F542402328666B4C00173EF7 /* Extensions */,
 				F5EDC9EF286541310080D468 /* Reachability */,
 				F5DF8F1528608F33003E4180 /* Utilitis */,
@@ -480,8 +494,10 @@
 				F5DF8F302860B80C003E4180 /* LeguesViewController.swift in Sources */,
 				F5EDC9EE286524920080D468 /* Reachability.swift in Sources */,
 				F5DF8F1B28608F33003E4180 /* JsonDecoder.swift in Sources */,
+				F55C06E7289B46750019070A /* SplashScreenViewController.swift in Sources */,
 				F5DF8F1A28608F33003E4180 /* NetworkManager.swift in Sources */,
 				F5EDC9E42864790A0080D468 /* TeamsCollectionViewCell.swift in Sources */,
+				F55C06E8289B46750019070A /* TabBarViewController.swift in Sources */,
 				F5BDAB4428622D6C00A54B57 /* LeagueDetPres.swift in Sources */,
 				F5DF8F362860B8F3003E4180 /* LeguesModelController.swift in Sources */,
 				F5DF8F2928609076003E4180 /* Model.swift in Sources */,
