@@ -203,22 +203,20 @@
 		F5DF8EF728607BC0003E4180 /* Sports */ = {
 			isa = PBXGroup;
 			children = (
+				F5F3A8DE289B5B93001CFE7C /* Main */,
+				F5F3A8DD289B5B74001CFE7C /* Delegate */,
 				F55C06E4289B46750019070A /* LaunchScreenController */,
 				F542402328666B4C00173EF7 /* Extensions */,
 				F5EDC9EF286541310080D468 /* Reachability */,
 				F5DF8F1528608F33003E4180 /* Utilitis */,
 				F5DF8F1728608F33003E4180 /* ApiServices */,
 				F5DF8F1328608F33003E4180 /* NetworkManager */,
-				F5DF8EF828607BC0003E4180 /* AppDelegate.swift */,
-				F5DF8EFA28607BC0003E4180 /* SceneDelegate.swift */,
 				F5EDC9E82864A9C60080D468 /* TeamDeatiels */,
 				F5EDC9C228631DB50080D468 /* FavouriteLeagues */,
 				F5BDAB3D28622CF500A54B57 /* LeaguesDetailes */,
 				F5DF8F2A2860B73A003E4180 /* Legues */,
 				F5DF8F1E28608F6E003E4180 /* Home */,
-				F5DF8EFE28607BC0003E4180 /* Main.storyboard */,
 				F5DF8F0428607BC1003E4180 /* Assets.xcassets */,
-				F5DF8F0628607BC1003E4180 /* LaunchScreen.storyboard */,
 				F5DF8F0928607BC1003E4180 /* Info.plist */,
 				F5EDC9F0286541580080D468 /* DataBase */,
 			);
@@ -405,6 +403,24 @@
 				F5EDC9C02863175D0080D468 /* DBManager.swift */,
 			);
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		F5F3A8DD289B5B74001CFE7C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF8EF828607BC0003E4180 /* AppDelegate.swift */,
+				F5DF8EFA28607BC0003E4180 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F5F3A8DE289B5B93001CFE7C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF8EFE28607BC0003E4180 /* Main.storyboard */,
+				F5DF8F0628607BC1003E4180 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
