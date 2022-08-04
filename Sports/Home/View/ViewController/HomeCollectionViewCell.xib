@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HomeCell" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="Sports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="239"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="239"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MsA-cr-Knb">
+                        <rect key="frame" x="10" y="10" width="180" height="219"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eR6-6N-aKo">
+                                <rect key="frame" x="15" y="15" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7uO-rb-WmD"/>
+                                    <constraint firstAttribute="width" constant="150" id="fz9-t5-Dnb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWE-f7-Xwc">
+                                <rect key="frame" x="15" y="175" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="MoM-CK-v9d"/>
+                                    <constraint firstAttribute="height" constant="34" id="mZn-Xc-Wmb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.18894213439999999" green="0.26602965589999999" blue="0.35188931229999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mWE-f7-Xwc" firstAttribute="top" secondItem="eR6-6N-aKo" secondAttribute="bottom" constant="10" id="AmS-Zb-752"/>
+                            <constraint firstAttribute="trailing" secondItem="eR6-6N-aKo" secondAttribute="trailing" constant="15" id="DWn-ED-YmN"/>
+                            <constraint firstItem="eR6-6N-aKo" firstAttribute="leading" secondItem="MsA-cr-Knb" secondAttribute="leading" constant="15" id="Tnm-qR-5J6"/>
+                            <constraint firstItem="mWE-f7-Xwc" firstAttribute="leading" secondItem="MsA-cr-Knb" secondAttribute="leading" constant="15" id="cjr-V4-6uW"/>
+                            <constraint firstItem="eR6-6N-aKo" firstAttribute="top" secondItem="MsA-cr-Knb" secondAttribute="top" constant="15" id="fIN-2h-98B"/>
+                            <constraint firstAttribute="trailing" secondItem="mWE-f7-Xwc" secondAttribute="trailing" constant="15" id="mBX-bH-LGO"/>
+                            <constraint firstAttribute="bottom" secondItem="mWE-f7-Xwc" secondAttribute="bottom" constant="10" id="xcn-4N-u3A"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.80000000000000004"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MsA-cr-Knb" secondAttribute="bottom" constant="10" id="JF7-8l-U6h"/>
+                <constraint firstItem="MsA-cr-Knb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Yqf-BE-Hbq"/>
+                <constraint firstAttribute="trailing" secondItem="MsA-cr-Knb" secondAttribute="trailing" constant="10" id="ntO-32-dWW"/>
+                <constraint firstItem="MsA-cr-Knb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="vcm-fi-nFl"/>
+            </constraints>
+            <size key="customSize" width="200" height="239"/>
+            <connections>
+                <outlet property="sportImage" destination="eR6-6N-aKo" id="r4g-fP-DdN"/>
+                <outlet property="sportName" destination="mWE-f7-Xwc" id="CV8-1Q-ArM"/>
+                <outlet property="viewBackGround" destination="MsA-cr-Knb" id="Dng-5a-bp1"/>
+            </connections>
+            <point key="canvasLocation" x="246.37681159420291" y="206.58482142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

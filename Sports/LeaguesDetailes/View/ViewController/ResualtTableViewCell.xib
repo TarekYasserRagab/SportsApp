@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ReasualtCell" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="ResualtTableViewCell" customModule="Sports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buf-YK-3u5">
+                        <rect key="frame" x="20" y="10" width="122" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="3N4-er-XcD"/>
+                            <constraint firstAttribute="height" constant="27" id="ob3-Na-ced"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLj-cx-Iz7">
+                        <rect key="frame" x="20" y="52" width="122" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="Rdh-5V-W9A"/>
+                            <constraint firstAttribute="width" constant="122" id="Wn6-tw-i6C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Away Team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjV-XP-KXy">
+                        <rect key="frame" x="243" y="10" width="122" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="FVg-dV-r10"/>
+                            <constraint firstAttribute="height" constant="27" id="PRb-4p-u48"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZX-hg-pB0">
+                        <rect key="frame" x="147" y="10" width="86" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="TZE-SX-Ggj"/>
+                            <constraint firstAttribute="width" constant="86" id="XR1-Mt-DiN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-0F-VUB">
+                        <rect key="frame" x="147" y="52" width="86" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="86" id="Hih-gp-WvK"/>
+                            <constraint firstAttribute="height" constant="27" id="UoQ-HJ-7Zs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Away Csore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABn-Fy-FVZ">
+                        <rect key="frame" x="243" y="52" width="122" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="TbH-sU-biX"/>
+                            <constraint firstAttribute="height" constant="27" id="uUy-rK-vv4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aLj-cx-Iz7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="AFr-8l-4Bc"/>
+                    <constraint firstItem="kjV-XP-KXy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Acv-vj-dd1"/>
+                    <constraint firstItem="aLj-cx-Iz7" firstAttribute="top" secondItem="buf-YK-3u5" secondAttribute="bottom" constant="15" id="C8e-jd-TOO"/>
+                    <constraint firstItem="LLm-0F-VUB" firstAttribute="top" secondItem="kjV-XP-KXy" secondAttribute="bottom" constant="15" id="Fxt-3m-9Ca"/>
+                    <constraint firstItem="CZX-hg-pB0" firstAttribute="leading" secondItem="buf-YK-3u5" secondAttribute="trailing" constant="5" id="Img-7Y-qk9"/>
+                    <constraint firstItem="ABn-Fy-FVZ" firstAttribute="top" secondItem="kjV-XP-KXy" secondAttribute="bottom" constant="15" id="Kay-0u-RSg"/>
+                    <constraint firstItem="buf-YK-3u5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="WDl-J0-5Bh"/>
+                    <constraint firstItem="kjV-XP-KXy" firstAttribute="leading" secondItem="CZX-hg-pB0" secondAttribute="trailing" constant="10" id="fy9-CQ-qoa"/>
+                    <constraint firstItem="buf-YK-3u5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lPR-ks-Y1v"/>
+                    <constraint firstItem="CZX-hg-pB0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="laL-K6-Qvk"/>
+                    <constraint firstItem="ABn-Fy-FVZ" firstAttribute="leading" secondItem="LLm-0F-VUB" secondAttribute="trailing" constant="10" id="qkJ-xU-SoH"/>
+                    <constraint firstItem="LLm-0F-VUB" firstAttribute="leading" secondItem="aLj-cx-Iz7" secondAttribute="trailing" constant="5" id="sEk-Wt-cAe"/>
+                    <constraint firstAttribute="trailing" secondItem="kjV-XP-KXy" secondAttribute="trailing" constant="20" id="wmL-pX-Fze"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="15"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                    <real key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                    <real key="value" value="0.59999999999999998"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="VS" destination="CZX-hg-pB0" id="9La-bd-uDF"/>
+                <outlet property="awayScore" destination="ABn-Fy-FVZ" id="9vH-Y3-7J5"/>
+                <outlet property="awayTeam" destination="kjV-XP-KXy" id="urP-xC-c94"/>
+                <outlet property="colone" destination="LLm-0F-VUB" id="JFp-rJ-pwc"/>
+                <outlet property="homeScore" destination="aLj-cx-Iz7" id="OlB-Jq-gmm"/>
+                <outlet property="homeTeam" destination="buf-YK-3u5" id="O6G-FK-BOJ"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="145.64732142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
